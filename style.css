@@ -1,0 +1,214 @@
+    @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+    body {
+        margin: 0;
+    }
+    
+    #header {
+        background-color: #65E4A3;
+        /* width: 1200px; */
+        height: 473px;
+    }
+    
+    .container {
+        width: 1200px;
+        margin: 0 auto;
+        padding-bottom: 120px;
+    }
+    
+    .header-top {
+        padding-top: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .navigation ul {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    
+    .navigation ul li {
+        font-family: 'Manrope', sans-serif;
+        list-style: none;
+        font-size: 16px;
+    }
+    
+    .navigation {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .navigation ul li a {
+        text-decoration: none;
+        color: #0A2640;
+        padding-right: 40px;
+    }
+    
+    .navigation ul li:last-child a {
+        border: 2px solid #0A2640;
+        padding: 8px 40px;
+        border-radius: 24px;
+    }
+    
+    .header-bottom {
+        justify-content: space-between;
+        display: flex;
+        margin-top: 96px;
+        width: 1156px;
+    }
+    
+    .header-buttom-left {
+        font-family: 'Manrope', sans-serif;
+        width: 600px;
+        height: 183px;
+    }
+    
+    .header-buttom-right {
+        width: 455px;
+        height: 64px;
+        color: #0A2640;
+        font-family: 'Manrope';
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .header-bottom-left h4 {
+        color: #0A2640;
+        font-weight: 400;
+        font-size: 20px;
+        margin: 0;
+        font-family: 'Open Sans';
+    }
+    
+    .header-bottom-left h1 {
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 72px;
+        margin: 14px 0 0 0;
+        font-family: 'Manrope';
+    }
+    
+    .header-bottom-right p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        line-height: 28px;
+        padding-top: 36px;
+        padding-left: 100px;
+        width: 455px;
+        height: 64px;
+        color: #0A2640;
+    }
+    
+    .heading {
+        text-align: center;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 72px;
+    }
+    
+    .member-heading {
+        padding: 0 43px;
+    }
+    /* .blue-color {
+        color: #0a2640;
+    } */
+    
+    .box-contant h2,
+    .box-contant p {
+        margin: 0;
+        padding-top: 32px
+    }
+    
+    .member-paragaraph {
+        text-align: center;
+    }
+    
+    .member-paragaraph,
+    p {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        color: #0A2640;
+    }
+    
+    .box-contant p {
+        text-align: left;
+    }
+    
+    .main-content .box-contant h2 {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 96px;
+    }
+    
+    .main-content .box-contant p {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    
+    .our-member {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+    .main-content {
+        align-items: center;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        color: #0A2640;
+    }
+    
+    .our-story {
+        background-color: #0A2640;
+        padding-top: 118px;
+    }
+    
+    .story {
+        color: #ffff;
+    }
+    
+    .story h4 {
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 20px;
+        width: 89px;
+        height: 32px;
+        align-items: center;
+        display: flex;
+    }
+    
+    .story p {
+        width: 799px;
+        height: 168px;
+        left: 302px;
+        top: 1417px;
+        color: #ffff;
+        font-family: 'Open Sans';
+    }
+    
+    .story h2 {
+        text-align: left;
+    }
+    
+    .our-team {
+        color: #777777;
+        padding-top: 118px;
+        text-align: ;
+    }
