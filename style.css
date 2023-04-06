@@ -210,33 +210,33 @@ p {
     padding-top: 126px;
 }
 
-.images-section h4 {
+.team-info h4 {
     font-family: "Open Sans";
     font-weight: 400;
     font-size: 20px;
     color: #777777;
 }
 
-.images-section p {
+.team-info p {
     color: #777777;
     font-family: "Open Sans";
     padding: 0;
     display: flex;
 }
 
-.images-section h2 {
+.team-info h2 {
     text-align: left;
 }
 
 
 /* */
 
-.our-work {
+.team-members {
     display: flex;
     justify-content: center;
 }
 
-.box {
+.member {
     width: 340px;
     height: 440px;
     font: 16px;
@@ -244,8 +244,8 @@ p {
     margin-bottom: 20px;
 }
 
-.box h3 {
-    font-family: 'Manrope';
+.member h3 {
+    font-family: "Manrope";
     font-weight: 400;
     font-size: 28px;
     line-height: 48px;
@@ -254,4 +254,110 @@ p {
 .team-info {
     padding: 0 250px 0 155px;
     margin-bottom: 56px;
+}
+
+.member p {
+    color: #777777;
+}
+
+.official {
+    display: flex;
+    width: 600px;
+    align-items: center;
+}
+
+.box.image {
+    width: 120px;
+    height: 120px;
+}
+
+.text-card {
+    padding-left: 24px;
+}
+
+.manager-bio {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #777777;
+}
+
+.official h3 {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+}
+
+.officials-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.our-officials {
+    padding: 0 50px 0 100px;
+    padding-bottom: 124px;
+}
+
+.our-blog {
+    background-color: #0a2640;
+    color: #f1f1f1;
+    padding-top: 118px;
+    text-align: center;
+    font-family: "Open Sans";
+    padding-bottom: 120px;
+}
+
+.our-blog h2 {
+    font-family: "Manrope";
+    font-size: 48px;
+    line-height: 72px;
+    width: 842px;
+    height: 144px;
+    padding-left: 160px;
+    padding-bottom: 5px;
+}
+
+.our-blog h4 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.blog {
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.right p {
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.left p {
+    color: #FFFFFF;
+}
+
+.right {
+    width: 509px;
+    height: 109px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header h1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
 }
