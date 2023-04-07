@@ -13,7 +13,7 @@ body {
 .container {
     width: 1200px;
     margin: 0 auto;
-    padding-bottom: 120px;
+    padding-bottom: 90px;
 }
 
 .header-top {
@@ -300,7 +300,6 @@ p {
 
 .our-officials {
     padding: 0 50px 0 100px;
-    padding-bottom: 124px;
 }
 
 .our-blog {
@@ -319,7 +318,7 @@ p {
     width: 842px;
     height: 144px;
     padding-left: 160px;
-    padding-bottom: 5px;
+    padding-bottom: 64px;
 }
 
 .our-blog h4 {
@@ -332,6 +331,7 @@ p {
 
 .blog {
     border-bottom: 2px solid #FFFFFF;
+    /* margin-bottom: -40px; */
 }
 
 .right p {
