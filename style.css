@@ -398,7 +398,7 @@ p {
 }
 
 body {
-    background: white;
+    background: #FFFFFF;
 }
 
 .footer :last-child b {
@@ -412,7 +412,7 @@ body {
     font-style: normal;
 }
 
-.w-row {
+.footer-row {
     display: flex;
     align-items: center;
     text-align: justify;
@@ -420,15 +420,15 @@ body {
     justify-content: space-around;
 }
 
-.footer-colume {
+.footer-column {
     color: black;
 }
 
-.footer-colume p {
+.footer-column p {
     color: #7777;
 }
 
-.footer-colume p b {
+.footer-column p b {
     background-color: #65E4A3;
     border-radius: 15px;
     font-size: 13px;
@@ -437,7 +437,7 @@ body {
     padding: 7px;
 }
 
-.footer-details {
+.footer-info {
     padding-top: 140PX;
     font-family: 'Open Sans';
     font-style: normal;
