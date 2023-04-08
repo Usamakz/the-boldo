@@ -13,7 +13,7 @@ body {
 .container {
     width: 1200px;
     margin: 0 auto;
-    padding-bottom: 90px;
+    padding-bottom: 78px;
 }
 
 .header-top {
@@ -360,4 +360,85 @@ p {
     font-weight: 400;
     font-size: 48px;
     line-height: 72px;
+}
+
+.web-end {
+    background-color: #0a2640;
+    color: #f1f1f1;
+    text-align: center;
+    margin: 60px;
+    padding-top: 50px;
+    border-radius: 20px;
+    height: 391px;
+}
+
+.web-end h2 {
+    padding-top: 73px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    padding: 0 150px 0 172px;
+}
+
+.value {
+    margin: 92px;
+}
+
+.email :last-child {
+    border: 2px solid #0a2640;
+    padding: 14px 42px;
+    border-radius: 24px;
+    background-color: #65e4a3;
+}
+
+.email :first-child {
+    padding: 14px 40px;
+    border-radius: 24px;
+}
+
+body {
+    background: white;
+}
+
+.footer :last-child b {
+    border-radius: 12px;
+    color: #0a2640;
+    background-color: #65E4A3;
+    font-size: 13px;
+    line-height: 28px;
+    font-weight: 700;
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+
+.w-row {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    position: initial;
+    justify-content: space-around;
+}
+
+.footer-colume {
+    color: black;
+}
+
+.footer-colume p {
+    color: #7777;
+}
+
+.footer-colume p b {
+    background-color: #65E4A3;
+    border-radius: 15px;
+    font-size: 13px;
+    line-height: 28px;
+    color: #0a2640;
+    padding: 7px;
+}
+
+.footer-details {
+    padding-top: 140PX;
+    font-family: 'Open Sans';
+    font-style: normal;
 }
