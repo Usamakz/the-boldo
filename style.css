@@ -13,7 +13,6 @@ body {
 .container {
     width: 1200px;
     margin: 0 auto;
-    padding-bottom: 78px;
 }
 
 .header-top {
@@ -58,10 +57,8 @@ body {
 }
 
 .header-bottom {
-    justify-content: space-between;
     display: flex;
     margin-top: 96px;
-    width: 1156px;
 }
 
 .header-buttom-left {
@@ -99,12 +96,12 @@ body {
 .header-bottom-right p {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
-    line-height: 28px;
     padding-top: 36px;
     padding-left: 100px;
     width: 455px;
     height: 64px;
     color: #0a2640;
+    margin-right: 50px;
 }
 
 .heading {
@@ -114,6 +111,10 @@ body {
     font-weight: 400;
     font-size: 48px;
     line-height: 72px;
+}
+
+.blue-color {
+    color: #0A2640;
 }
 
 .member-heading {
@@ -128,10 +129,15 @@ body {
 
 .member-paragaraph {
     text-align: center;
+    color: #0A2640;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
 }
 
-.member-paragaraph,
-p {
+.member-paragaraph p {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
@@ -165,11 +171,11 @@ p {
 }
 
 .main-content {
-    align-items: center;
     text-align: center;
     display: flex;
     justify-content: space-between;
     color: #0a2640;
+    padding-bottom: 76px;
 }
 
 .our-story {
@@ -208,6 +214,7 @@ p {
 
 .our-team {
     padding-top: 126px;
+    padding-bottom: 124px;
 }
 
 .team-info h4 {
@@ -239,7 +246,7 @@ p {
 .member {
     width: 340px;
     height: 440px;
-    font: 16px;
+    font-size: 16px;
     padding-bottom: 50px;
     margin-bottom: 20px;
 }
@@ -397,48 +404,77 @@ p {
     border-radius: 24px;
 }
 
-body {
+.body {
     background: #FFFFFF;
 }
 
-.footer :last-child b {
-    border-radius: 12px;
-    color: #0a2640;
-    background-color: #65E4A3;
-    font-size: 13px;
-    line-height: 28px;
-    font-weight: 700;
-    font-family: 'Open Sans';
-    font-style: normal;
-}
-
-.footer-row {
+.footer-link {
     display: flex;
-    align-items: center;
-    text-align: justify;
-    position: initial;
-    justify-content: space-around;
 }
 
-.footer-column {
-    color: black;
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    color: #777777;
+    margin-bottom: 90px;
 }
 
-.footer-column p {
-    color: #7777;
-}
-
-.footer-column p b {
-    background-color: #65E4A3;
-    border-radius: 15px;
-    font-size: 13px;
-    line-height: 28px;
-    color: #0a2640;
-    padding: 7px;
-}
-
-.footer-info {
-    padding-top: 140PX;
+.footer-links {
+    display: flex;
+    width: 642px;
+    display: flex;
+    width: 642px;
     font-family: 'Open Sans';
     font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    justify-content: space-between;
+}
+
+.footer-contant {
+    width: 326px;
+}
+
+.footer-link ul {
+    list-style-type: none;
+}
+
+.footer-link h3 {
+    color: #000000;
+}
+
+.footer-contant p {
+    padding-top: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    padding-bottom: 64px;
+}
+
+.footer-contant h3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.footer-link li {
+    padding-bottom: 32px;
+}
+
+.hiring {
+    border-radius: 18px;
+    background-color: aqua;
+    color: #0A2640;
+    background-color: #65E4A3;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 28px;
+    padding: 8px;
 }
