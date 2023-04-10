@@ -6,7 +6,6 @@ body {
 
 #header {
     background-color: #65e4a3;
-    /* width: 1200px; */
     height: 473px;
 }
 
@@ -215,9 +214,13 @@ body {
 
 .team-info p {
     color: #777777;
-    font-family: "Open Sans";
     padding: 0;
     display: flex;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
 }
 
 .team-info h2 {
@@ -251,6 +254,11 @@ body {
 
 .member p {
     color: #777777;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
 }
 
 .official {
@@ -324,7 +332,6 @@ body {
 
 .blog {
     border-bottom: 2px solid #ffffff;
-    /* margin-bottom: -40px; */
 }
 
 .right p {
