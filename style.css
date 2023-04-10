@@ -67,16 +67,6 @@ body {
     height: 183px;
 }
 
-.header-buttom-right {
-    width: 455px;
-    height: 64px;
-    color: #0a2640;
-    font-family: "Manrope";
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 .header-bottom-left h4 {
     color: #0a2640;
     font-weight: 400;
@@ -93,15 +83,15 @@ body {
     font-family: "Manrope";
 }
 
+.header-bottom-right {
+    display: flex;
+    align-items: center;
+}
+
 .header-bottom-right p {
     font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    padding-top: 36px;
-    padding-left: 100px;
     width: 455px;
-    height: 64px;
     color: #0a2640;
-    margin-right: 50px;
 }
 
 .heading {
@@ -428,16 +418,21 @@ body {
     justify-content: space-between;
 }
 
+.footer-link li a {
+    color: #777;
+    text-decoration: none;
+}
+
+.footer-link li:first-child {
+    color: #000;
+}
+
 .footer-contant {
     width: 326px;
 }
 
 .footer-link ul {
     list-style-type: none;
-}
-
-.footer-link h3 {
-    color: #000000;
 }
 
 .footer-contant p {
@@ -459,7 +454,7 @@ body {
 }
 
 .footer-link li {
-    padding-bottom: 32px;
+    margin-bottom: 32px;
 }
 
 .hiring {
