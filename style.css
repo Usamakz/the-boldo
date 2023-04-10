@@ -114,23 +114,22 @@ body {
 }
 
 .blue-color {
-    color: #0A2640;
+    color: #0a2640;
 }
 
 .member-heading {
     padding: 0 43px;
 }
 
-.box-contant h2,
-.box-contant p {
+.box-contant h2 {
     margin: 0;
     padding-top: 32px;
 }
 
 .member-paragaraph {
     text-align: center;
-    color: #0A2640;
-    font-family: 'Open Sans';
+    color: #0a2640;
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -329,7 +328,7 @@ body {
 }
 
 .our-blog h4 {
-    font-family: 'Open Sans';
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -337,17 +336,17 @@ body {
 }
 
 .blog {
-    border-bottom: 2px solid #FFFFFF;
+    border-bottom: 2px solid #ffffff;
     /* margin-bottom: -40px; */
 }
 
 .right p {
-    color: #FFFFFF;
+    color: #ffffff;
     text-align: left;
 }
 
 .left p {
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .right {
@@ -362,7 +361,7 @@ body {
 }
 
 .header h1 {
-    font-family: 'Manrope';
+    font-family: "Manrope";
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
@@ -381,7 +380,7 @@ body {
 
 .web-end h2 {
     padding-top: 73px;
-    font-family: 'Manrope';
+    font-family: "Manrope";
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
@@ -405,7 +404,7 @@ body {
 }
 
 .body {
-    background: #FFFFFF;
+    background: #ffffff;
 }
 
 .footer-link {
@@ -424,7 +423,7 @@ body {
     width: 642px;
     display: flex;
     width: 642px;
-    font-family: 'Open Sans';
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -446,7 +445,7 @@ body {
 
 .footer-contant p {
     padding-top: 40px;
-    font-family: 'Open Sans';
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -455,7 +454,7 @@ body {
 }
 
 .footer-contant h3 {
-    font-family: 'Open Sans';
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -467,14 +466,14 @@ body {
 }
 
 .hiring {
-    border-radius: 18px;
+    border-radius: 16px;
     background-color: aqua;
-    color: #0A2640;
-    background-color: #65E4A3;
-    font-family: 'Open Sans';
+    color: #0a2640;
+    background-color: #65e4a3;
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: 700;
     font-size: 13px;
     line-height: 28px;
-    padding: 8px;
+    padding: 6px;
 }
