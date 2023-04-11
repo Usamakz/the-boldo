@@ -263,7 +263,7 @@ body {
 
 .official {
     display: flex;
-    width: 600px;
+    width: 40%;
     align-items: center;
 }
 
@@ -297,10 +297,9 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
-
-.our-officials {
-    padding: 0 50px 0 100px;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
 }
 
 .our-blog {
