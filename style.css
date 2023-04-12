@@ -1,476 +1,462 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 body {
-    margin: 0;
+  margin: 0;
 }
 
 #header {
-    background-color: #65e4a3;
-    height: 473px;
+  background-color: #65e4a3;
+  height: 473px;
 }
 
 .container {
-    width: 1200px;
-    margin: 0 auto;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .header-top {
-    padding-top: 56px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  padding-top: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navigation ul {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    margin: 0;
-    padding: 0;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 28px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
 }
 
 .navigation ul li {
-    font-family: "Manrope", sans-serif;
-    list-style: none;
-    font-size: 16px;
+  font-family: "Manrope", sans-serif;
+  list-style: none;
+  font-size: 16px;
 }
 
 .navigation {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .navigation ul li a {
-    text-decoration: none;
-    color: #0a2640;
-    padding-right: 40px;
+  text-decoration: none;
+  color: #0a2640;
+  padding-right: 40px;
 }
 
 .navigation ul li:last-child a {
-    border: 2px solid #0a2640;
-    padding: 8px 40px;
-    border-radius: 24px;
+  border: 2px solid #0a2640;
+  padding: 8px 40px;
+  border-radius: 24px;
 }
 
 .header-bottom {
-    display: flex;
-    margin-top: 96px;
+  display: flex;
+  margin-top: 96px;
 }
 
 .header-buttom-left {
-    font-family: "Manrope", sans-serif;
-    width: 600px;
-    height: 183px;
+  font-family: "Manrope", sans-serif;
+  width: 600px;
+  height: 183px;
 }
 
 .header-bottom-left h4 {
-    color: #0a2640;
-    font-weight: 400;
-    font-size: 20px;
-    margin: 0;
-    font-family: "Open Sans";
+  color: #0a2640;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0;
+  font-family: "Open Sans";
 }
 
 .header-bottom-left h1 {
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 72px;
-    margin: 14px 0 0 0;
-    font-family: "Manrope";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  margin: 14px 0 0 0;
+  font-family: "Manrope";
 }
 
 .header-bottom-right {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header-bottom-right p {
-    font-family: "Open Sans", sans-serif;
-    width: 455px;
-    color: #0a2640;
+  font-family: "Open Sans", sans-serif;
+  width: 455px;
+  color: #0a2640;
 }
 
 .heading {
-    text-align: center;
-    font-family: "Manrope";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 72px;
+  text-align: center;
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  padding: 0px 43px;
 }
 
 .blue-color {
-    color: #0a2640;
+  color: #0a2640;
 }
 
 .member-heading {
-    padding: 0 43px;
+  padding: 0 43px;
 }
 
 .box-contant h2 {
-    margin: 0;
-    padding-top: 32px;
+  margin: 0;
+  padding-top: 32px;
 }
 
 .member-paragaraph {
-    text-align: center;
-    color: #0a2640;
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
+  text-align: center;
+  color: #0a2640;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .member-paragaraph p {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    color: #0a2640;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #0a2640;
 }
 
 .box-contant p {
-    text-align: left;
+  text-align: left;
 }
 
 .main-content .box-contant h2 {
-    font-family: "Manrope";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 96px;
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 96px;
 }
 
 .main-content .box-contant p {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
 }
 
 .our-member {
-    margin-top: 100px;
-    margin-bottom: 100px;
+  margin-top: 96px;
+  margin-bottom: 120px;
 }
 
 .main-content {
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    color: #0a2640;
-    padding-bottom: 76px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  color: #0a2640;
 }
 
 .our-story {
-    background-color: #0a2640;
-    padding-top: 118px;
+  background-color: #0a2640;
+  /* padding-top: 118px; */
+  padding: 120px 0 120px 0px;
+}
+.story-heading {
+  color: #ffffff;
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
 }
 
 .story {
-    color: #ffff;
-    padding: 0 157px 0 157px;
+  color: #f1f1f1;
+  padding: 0 157px 0 157px;
 }
 
 .story h4 {
-    font-family: "Open Sans";
-    font-weight: 400;
-    font-size: 20px;
-    width: 89px;
-    height: 32px;
-    align-items: center;
-    display: flex;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 20px;
+  align-items: center;
+  display: flex;
 }
 
 .story p {
-    width: 799px;
-    height: 168px;
-    left: 302px;
-    top: 1417px;
-    color: #f1f1f1;
-    font-family: "Open Sans";
+  width: 799px;
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 32px;
 }
 
 .story h2 {
-    text-align: left;
-    padding-right: 85px;
+  text-align: left;
+  padding-right: 85px;
 }
 
 .our-team {
-    padding-top: 126px;
-    padding-bottom: 124px;
+  padding: 124px 0 124px 0;
 }
 
 .team-info h4 {
-    font-family: "Open Sans";
-    font-weight: 400;
-    font-size: 20px;
-    color: #777777;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 20px;
+  color: #777777;
 }
 
 .team-info p {
-    color: #777777;
-    padding: 0;
-    display: flex;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
+  color: #777777;
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 32px;
 }
 
 .team-info h2 {
-    text-align: left;
+  text-align: left;
+  padding: 0;
 }
 
 .team-members {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .member {
-    width: 340px;
-    height: 440px;
-    font-size: 16px;
-    padding-bottom: 50px;
-    margin-bottom: 20px;
+  width: 340px;
+  height: 440px;
+  font-size: 16px;
+  padding-bottom: 110px;
 }
 
 .member h3 {
-    font-family: "Manrope";
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 48px;
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
 }
 
 .team-info {
-    padding: 0 250px 0 155px;
-    margin-bottom: 56px;
+  padding: 0 250px 0 155px;
+  margin-bottom: 56px;
 }
 
 .member p {
-    color: #777777;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
+  color: #777777;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
 }
 
 .official {
-    display: flex;
-    width: 40%;
-    align-items: center;
+  display: flex;
+  width: 40%;
+  align-items: center;
 }
 
 .box.image {
-    width: 120px;
-    height: 120px;
+  width: 120px;
+  height: 120px;
 }
 
 .text-card {
-    padding-left: 24px;
+  padding-left: 24px;
 }
 
 .manager-bio {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    color: #777777;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
 }
 
 .official h3 {
-    font-family: "Manrope";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 48px;
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
 }
 
 .officials-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-    margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .our-blog {
-    background-color: #0a2640;
-    color: #f1f1f1;
-    padding-top: 118px;
-    text-align: center;
-    font-family: "Open Sans";
-    padding-bottom: 120px;
+  background-color: #0a2640;
+  color: #f1f1f1;
+  padding-top: 118px;
+  text-align: center;
+  font-family: "Open Sans";
+  padding: 118px 0 118px 0;
 }
 
 .our-blog h2 {
-    font-family: "Manrope";
-    font-size: 48px;
-    line-height: 72px;
-    width: 842px;
-    height: 144px;
-    padding-left: 160px;
-    padding-bottom: 64px;
+  padding: 0 32px 64px 32px;
 }
 .our-blog h4 {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
 }
 
 .blog {
-    border-bottom: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
 }
 
 .right p {
-    color: #ffffff;
-    text-align: left;
+  color: #f1f1f1;
+  text-align: left;
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 32px;
+  margin-top: 60px;
 }
 
 .left p {
-    color: #ffffff;
+  color: #ffffff;
 }
 
-.right {
-    width: 509px;
-    height: 109px;
+.right,
+.left {
+  width: 550px;
 }
 
-.header {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.responsible {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.header h1 {
-    font-family: "Manrope";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 72px;
+.responsible h1 {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
 }
 
-.web-end {
-    background-color: #0a2640;
-    color: #f1f1f1;
-    text-align: center;
-    margin: 60px;
-    padding-top: 50px;
-    border-radius: 20px;
-    height: 391px;
+.news-letter {
+  background-color: #0a2640;
+  color: #f1f1f1;
+  text-align: center;
+  margin: 60px;
+  padding-top: 50px;
+  border-radius: 20px;
+  height: 391px;
 }
 
-.web-end h2 {
-    padding-top: 73px;
-    font-family: "Manrope";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    padding: 0 150px 0 172px;
+.news-letter h2 {
+  padding-top: 73px;
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 48px;
+  padding: 0 150px 0 172px;
 }
 
-.value {
-    margin: 92px;
+.news-letter-content {
+  margin: 92px;
 }
-
-.email :last-child {
+.email form input:last-child {
+  background: #65e4a3;
+  border: 2px solid #65e4a3;
+  border-radius: 56px;
+  padding: 16px 56px;
+}
+/* .email :last-child { 
     border: 2px solid #0a2640;
     padding: 14px 42px;
     border-radius: 24px;
     background-color: #65e4a3;
+} */
+.email form {
+  width: 100%;
 }
-
-.email :first-child {
-    padding: 14px 40px;
-    border-radius: 24px;
+.email input:first-child {
+  padding: 14px 40px;
+  border-radius: 24px;
+  width: 370px;
 }
 
 .body {
-    background: #ffffff;
+  background: #ffffff;
 }
 
 .footer-link {
-    display: flex;
+  display: flex;
 }
 
 .footer-main {
-    display: flex;
-    justify-content: space-between;
-    color: #777777;
-    margin-bottom: 90px;
+  display: flex;
+  justify-content: space-between;
+  color: #777777;
+  margin-bottom: 90px;
 }
 
 .footer-links {
-    display: flex;
-    width: 642px;
-    display: flex;
-    width: 642px;
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    justify-content: space-between;
+  display: flex;
+  width: 642px;
+  display: flex;
+  width: 642px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  justify-content: space-between;
 }
 
 .footer-link li a {
-    color: #777;
-    text-decoration: none;
+  color: #777;
+  text-decoration: none;
 }
 
 .footer-link li:first-child {
-    color: #000;
+  color: #000;
 }
 
 .footer-contant {
-    width: 326px;
+  width: 326px;
 }
 
 .footer-link ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .footer-contant p {
-    padding-top: 40px;
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    padding-bottom: 64px;
+  padding-top: 40px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  padding-bottom: 64px;
 }
 
 .footer-contant h3 {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
 }
 
 .footer-link li {
-    margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .hiring {
-    border-radius: 16px;
-    background-color: aqua;
-    color: #0a2640;
-    background-color: #65e4a3;
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 28px;
-    padding: 6px;
+  border-radius: 16px;
+  background-color: aqua;
+  color: #0a2640;
+  background-color: #65e4a3;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 28px;
+  padding: 6px;
 }
