@@ -105,6 +105,9 @@ body {
 .blue-color {
   color: #0a2640;
 }
+.white-color {
+  color: #fff;
+}
 
 .member-heading {
   padding: 0 43px;
@@ -310,6 +313,7 @@ body {
 
 .blog {
   border-bottom: 2px solid #ffffff;
+  margin-bottom: 84px;
 }
 
 .right p {
@@ -318,22 +322,26 @@ body {
   font-family: "Open Sans";
   font-size: 20px;
   line-height: 32px;
-  margin-top: 60px;
 }
 
-.left p {
-  color: #ffffff;
+.left h1,
+.right p {
+  margin: 0;
 }
 
 .right,
 .left {
   width: 550px;
+  display: flex;
+  align-items: flex-start;
 }
 
 .responsible {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 80px;
+  align-items: flex-start;
 }
 
 .responsible h1 {
@@ -344,6 +352,9 @@ body {
 }
 
 .news-letter {
+  margin: 124px 0;
+}
+/* .news-letter {
   background-color: #0a2640;
   color: #f1f1f1;
   text-align: center;
@@ -351,7 +362,7 @@ body {
   padding-top: 50px;
   border-radius: 20px;
   height: 391px;
-}
+} */
 
 .news-letter h2 {
   padding-top: 73px;
@@ -361,28 +372,43 @@ body {
   padding: 0 150px 0 172px;
 }
 
-.news-letter-content {
-  margin: 92px;
-}
+/* .news-letter-content {
+  margin: 92px.
+} */
 .email form input:last-child {
+  font-family: "Open Sans";
   background: #65e4a3;
   border: 2px solid #65e4a3;
   border-radius: 56px;
   padding: 16px 56px;
+  font-weight: 700;
+  font-size: 20px;
 }
-/* .email :last-child { 
-    border: 2px solid #0a2640;
-    padding: 14px 42px;
-    border-radius: 24px;
-    background-color: #65e4a3;
-} */
+
 .email form {
   width: 100%;
 }
 .email input:first-child {
-  padding: 14px 40px;
-  border-radius: 24px;
+  /* padding: 14px 40px; */
+  border-radius: 30px;
   width: 370px;
+  height: 56px;
+  padding-left: 30px;
+}
+
+.newsletter-wrapper {
+  background-color: #0a2640;
+  color: #f1f1f1;
+  text-align: center;
+  border-radius: 20px;
+  height: 391px;
+  display: flex;
+  align-items: center;
+  /* padding: 72px 0; */
+}
+#no-outline {
+  outline: none;
+  border: none;
 }
 
 .body {
@@ -401,8 +427,6 @@ body {
 }
 
 .footer-links {
-  display: flex;
-  width: 642px;
   display: flex;
   width: 642px;
   font-family: "Open Sans";
@@ -429,7 +453,7 @@ body {
   list-style-type: none;
 }
 
-.footer-contant p {
+.footer-content p {
   padding-top: 40px;
   font-family: "Open Sans";
   font-weight: 400;
@@ -438,7 +462,7 @@ body {
   padding-bottom: 64px;
 }
 
-.footer-contant h3 {
+.footer-content h3 {
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 16px;
