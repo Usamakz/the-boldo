@@ -113,7 +113,7 @@ body {
   padding: 0 43px;
 }
 
-.box-contant h2 {
+.box-content h2 {
   margin: 0;
   padding-top: 32px;
 }
@@ -134,17 +134,17 @@ body {
   color: #0a2640;
 }
 
-.box-contant p {
+.box-content p {
   text-align: left;
 }
 
-.main-content .box-contant h2 {
+.main-content .box-content h2 {
   font-family: "Manrope";
   font-weight: 400;
   font-size: 96px;
 }
 
-.main-content .box-contant p {
+.main-content .box-content p {
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 24px;
@@ -152,8 +152,7 @@ body {
 }
 
 .our-member {
-  margin-top: 96px;
-  margin-bottom: 120px;
+  padding: 96px 0 120px 0;
 }
 
 .main-content {
@@ -165,7 +164,6 @@ body {
 
 .our-story {
   background-color: #0a2640;
-  /* padding-top: 118px; */
   padding: 120px 0 120px 0px;
 }
 .story-heading {
@@ -295,7 +293,6 @@ body {
 .our-blog {
   background-color: #0a2640;
   color: #f1f1f1;
-  padding-top: 118px;
   text-align: center;
   font-family: "Open Sans";
   padding: 118px 0 118px 0;
@@ -373,9 +370,6 @@ body {
   font-size: 20px;
 }
 
-.email form {
-  width: 100%;
-}
 .email input:first-child {
   border-radius: 30px;
   width: 370px;
@@ -391,8 +385,8 @@ body {
   height: 391px;
   display: flex;
   align-items: center;
-  /* padding: 72px 0; */
 }
+
 .no-outline {
   outline: none;
   border: none;
@@ -400,7 +394,7 @@ body {
 
 input::placeholder {
   color: #000;
-    font: 20px sans-serif;
+  font: 20px sans-serif;
 }
 .body {
   background: #ffffff;
@@ -445,10 +439,9 @@ input::placeholder {
 }
 
 .footer-content p {
-  padding: 40px 0 64px 0;
   font-family: "Open Sans";
   line-height: 28px;
-  
+  padding: 40px 0 64px 0;
 }
 
 .footer-content h3 {
@@ -468,6 +461,5 @@ input::placeholder {
   background-color: #65e4a3;
   font-weight: 700;
   font-size: 13px;
-  line-height: 28px;
   padding: 6px;
 }
