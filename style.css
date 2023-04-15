@@ -375,6 +375,7 @@ body {
   width: 370px;
   height: 56px;
   padding-left: 32px;
+  margin-right:  24px;
 }
 
 .newsletter-wrapper {
@@ -390,11 +391,15 @@ body {
 .no-outline {
   outline: none;
   border: none;
+  font-size: 20px;
+
 }
+
 
 input::placeholder {
   color: #000;
-  font: 20px sans-serif;
+  font: 20px Open Sans;
+
 }
 .body {
   background: #ffffff;
