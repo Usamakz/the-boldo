@@ -357,7 +357,7 @@ body {
   font-family: "Manrope";
   font-weight: 400;
   font-size: 48px;
-  padding: 0 150px 0 172px;
+  padding: 0 255px 0 234px;
 }
 
 .email form input:last-child {
@@ -380,6 +380,10 @@ body {
 
 .newsletter-wrapper {
   background-color: #0a2640;
+  background-image: url(images/Ellipse\ 9.png );
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 787px;
   color: #f1f1f1;
   text-align: center;
   border-radius: 20px;
