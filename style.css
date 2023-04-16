@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 
-#header {
+.header {
   background-color: #65e4a3;
   height: 473px;
 }
@@ -380,7 +380,7 @@ body {
 
 .newsletter-wrapper {
   background-color: #0a2640;
-  background-image: url(images/Ellipse\ 9.png );
+  background-image: url(images/background-img.png );
   background-repeat: no-repeat;
   background-position: top right;
   background-size: 787px;
@@ -471,4 +471,60 @@ input::placeholder {
   font-weight: 700;
   font-size: 13px;
   padding: 6px;
+}
+
+/* blogs page css start */
+
+.blog-content {
+  text-align: center;
+}
+.blog-discription {
+  display: flex;
+}
+.blog-content h2 {
+  font-size: 64px;
+  font-family: 'Manrope'
+}
+
+.category-content p span {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Open Sans" ;
+  color: #000;
+}
+.category-content p:first-child {
+  font-size: 16px;
+  font-weight: 400;
+  color: #777777;
+}
+.user-info {
+  font-family: "Open Sans";
+  display: flex;
+  font-size: 16px;
+  color: #000;
+  align-items: center;
+  
+}
+.user-info p {
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: #000;
+  padding-left: 12px;
+  
+}
+
+.user-info img {
+  width: 32px;
+  height: 32px;
+
+}
+.category-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+}
+.category-content h3 {
+  font-size: 48px;
+  height: 145px;
 }
