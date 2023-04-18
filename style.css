@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
 body {
   margin: 0;
 }
@@ -105,6 +106,7 @@ body {
 .blue-color {
   color: #0a2640;
 }
+
 .white-color {
   color: #fff;
 }
@@ -166,6 +168,7 @@ body {
   background-color: #0a2640;
   padding: 120px 0 120px 0px;
 }
+
 .story-heading {
   color: #ffffff;
   font-family: "Manrope";
@@ -301,6 +304,7 @@ body {
 .our-blog h2 {
   padding: 0 32px 64px 32px;
 }
+
 .our-blog h4 {
   font-family: "Open Sans";
   font-weight: 400;
@@ -375,7 +379,7 @@ body {
   width: 370px;
   height: 56px;
   padding-left: 32px;
-  margin-right:  24px;
+  margin-right: 24px;
 }
 
 .newsletter-wrapper {
@@ -405,6 +409,7 @@ input::placeholder {
   font: 20px Open Sans;
 
 }
+
 .body {
   background: #ffffff;
 }
@@ -478,39 +483,47 @@ input::placeholder {
 .blog-content {
   text-align: center;
 }
+
 .blog-discription {
   display: flex;
+  padding-bottom: 72px;
 }
+
 .blog-content h2 {
   font-size: 64px;
-  font-family: 'Manrope'
+  font-family: 'Manrope';
+  line-height: 86%;
+  font-weight: 400 
 }
 
 .category-content p span {
   font-size: 16px;
   font-weight: 700;
-  font-family: "Open Sans" ;
+  font-family: "Open Sans";
   color: #000;
 }
+
 .category-content p:first-child {
   font-size: 16px;
   font-weight: 400;
   color: #777777;
 }
+
 .user-info {
   font-family: "Open Sans";
   display: flex;
   font-size: 16px;
   color: #000;
   align-items: center;
-  
+
 }
+
 .user-info p {
   font-family: "Open Sans";
   font-size: 16px;
   color: #000;
   padding-left: 12px;
-  
+
 }
 
 .user-info img {
@@ -518,13 +531,115 @@ input::placeholder {
   height: 32px;
 
 }
+
 .category-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-left: 100px;
+  padding-bottom: 67px;
 }
+
 .category-content h3 {
   font-size: 48px;
   height: 145px;
+  font-family: 'manrope';
+  font-weight: 400;
+  margin: 0;
+}
+
+.blog-content h5 {
+  font-size: 20px;
+  font-family: 'Open Sans';
+  padding-top: 45px;
+  font-weight: 400
+}
+
+.latest-news {
+  font-family: 'manrope';
+  /* font-size: 48px; */
+
+}
+
+.latest-news h2 {
+  font-family: 'Manrope';
+  font-size: 48px;
+  line-height: 110%;
+  font-weight: 400;
+  padding-top: 72px;
+
+}
+
+
+.brodcast {
+  display: flex;
+  flex-wrap: wrap;
+  width: 998px;
+  justify-content: center;
+  margin: auto;
+  
+}
+.news-company {
+  padding-bottom: 80px;
+  width: 300px;
+  margin-right: 28px;
+
+
+}
+
+
+.anchor {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+}
+
+/* .boxes div {
+  background-color: skyblue;
+   margin: 10px;
+   padding: 20px;
+   font-size: 20px;
+} */
+
+.detail {
+  font-size: 25px;
+  font-family: 'Open Sans';
+  padding: 0px;
+  margin: 0px;
+
+}
+.anchor p {
+  padding-right: 130px;
+  padding-left: 12px;
+}
+
+
+
+.news-title {
+  color: #777777;
+  font-family: 'Open Sans';
+
+}
+
+.news-title span {
+  color: #0A2640;
+  font-family: 'Open Sans';
+  font-weight: 500;
+
+}
+
+.more input {
+  font-family: "Open Sans";
+  background-color: #fff;
+  border: 2px solid #0A2640;
+  border-radius: 56px;
+  padding: 16px 56px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.more {
+  display: flex;
+  justify-content: center
 }
