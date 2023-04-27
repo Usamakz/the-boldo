@@ -657,6 +657,11 @@ input::placeholder {
 .home-header {
   background-color: #0a2640;
   height: 798px;
+  background-image: url(images/elip-one.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 787px;
+  
 }
 .heading-h2 {
   color: #f1f1f1;
