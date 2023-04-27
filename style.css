@@ -8,7 +8,6 @@ body {
 .header {
   background-color: #65e4a3;
   height: 473px;
-
 }
 
 .container {
@@ -385,7 +384,7 @@ body {
 
 .newsletter-wrapper {
   background-color: #0a2640;
-  background-image: url(images/background-img.png );
+  background-image: url(images/background-img.png);
   background-repeat: no-repeat;
   background-position: top right;
   background-size: 787px;
@@ -401,14 +400,11 @@ body {
   outline: none;
   border: none;
   font-size: 20px;
-
 }
-
 
 input::placeholder {
   color: #000;
   font: 20px Open Sans;
-
 }
 
 .body {
@@ -492,9 +488,9 @@ input::placeholder {
 
 .blog-content h2 {
   font-size: 64px;
-  font-family: 'Manrope';
+  font-family: "Manrope";
   line-height: 86%;
-  font-weight: 400
+  font-weight: 400;
 }
 
 .category-content p span {
@@ -516,7 +512,6 @@ input::placeholder {
   font-size: 16px;
   color: #000;
   align-items: center;
-
 }
 
 .user-info p {
@@ -524,13 +519,11 @@ input::placeholder {
   font-size: 16px;
   color: #000;
   padding-left: 12px;
-
 }
 
 .user-info img {
   width: 32px;
   height: 32px;
-
 }
 
 .category-content {
@@ -544,33 +537,30 @@ input::placeholder {
 .category-content h3 {
   font-size: 48px;
   height: 145px;
-  font-family: 'manrope';
+  font-family: "manrope";
   font-weight: 400;
   margin: 0;
 }
 
 .blog-content h5 {
   font-size: 20px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   padding-top: 45px;
-  font-weight: 400
+  font-weight: 400;
 }
 
 .latest-news {
-  font-family: 'manrope';
+  font-family: "manrope";
   /* font-size: 48px; */
-
 }
 
 .latest-news h2 {
-  font-family: 'Manrope';
+  font-family: "Manrope";
   font-size: 48px;
   line-height: 110%;
   font-weight: 400;
   padding: 72px 0 0 112px;
-
 }
-
 
 .news-container {
   display: flex;
@@ -578,14 +568,12 @@ input::placeholder {
   width: 998px;
   justify-content: center;
   margin: auto;
-
 }
 
 .news-article {
   padding-bottom: 80px;
   width: 300px;
   margin-right: 28px;
-
 }
 
 .writter {
@@ -597,10 +585,9 @@ input::placeholder {
 
 .news-detail {
   font-size: 25px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   padding: 0px;
   margin: 0px;
-
 }
 
 .writter p {
@@ -610,21 +597,19 @@ input::placeholder {
 
 .news-title {
   color: #777777;
-  font-family: 'Open Sans';
-
+  font-family: "Open Sans";
 }
 
 .news-title span {
-  color: #0A2640;
-  font-family: 'Open Sans';
+  color: #0a2640;
+  font-family: "Open Sans";
   font-weight: 500;
-
 }
 
 .view-all input {
   font-family: "Open Sans";
   background-color: #fff;
-  border: 2px solid #0A2640;
+  border: 2px solid #0a2640;
   border-radius: 56px;
   padding: 16px 56px;
   font-weight: 700;
@@ -633,42 +618,138 @@ input::placeholder {
 
 .view-all {
   display: flex;
-  justify-content: center
+  justify-content: center;
 }
 
 /* Responsive work Starts */
 
-@media   (max-width:1600px) and (min-width:1200px) {
-
-         .header,.our-story, .our-blog {
-          min-width: 1200px;
-         }          
+@media (max-width: 1600px) and (min-width: 1200px) {
+  .header,
+  .our-story,
+  .our-blog {
+    min-width: 1200px;
   }
-
-  @media   (max-width:1199px) and (min-width:900px) {
-
-    .header,.our-story, .our-blog {
-     min-width: 1200px;
-    } 
-      
 }
-@media  (max-width:899px) and (min-width:768px) {
 
-  .header,.our-story, .our-blog {
-   min-width: 1200px;
-  } 
-     
+@media (max-width: 1199px) and (min-width: 900px) {
+  .header,
+  .our-story,
+  .our-blog {
+    min-width: 1200px;
+  }
 }
-@media   (max-width:767px)  {
+@media (max-width: 899px) and (min-width: 768px) {
+  .header,
+  .our-story,
+  .our-blog {
+    min-width: 1200px;
+  }
+}
+@media (max-width: 767px) {
+  .header,
+  .our-story,
+  .our-blog {
+    min-width: 1200px;
+  }
+}
 
-  .header,.our-story, .our-blog {
-   min-width: 1200px;
-  } 
-    
-} 
+/* homepage start */
+.home-header {
+  background-color: #0a2640;
+  height: 798px;
+}
+.heading-h2 {
+  color: #f1f1f1;
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+}
 
+.navigation-b ul li a {
+  color: #fff;
+}
+.navigation-b ul li:last-child a {
+  border: 2px solid #fff;
+  padding: 8px 40px;
+  border-radius: 24px;
+}
 
+.heading-h5 {
+  color: #f1f1f1;
+  font-size: 14px;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 128%;
+}
 
+.home-page {
+  width: 550px;
+  padding: 120px 0 10px 0;
+}
+/* .home-container {
+  width: 550px;
+  padding: 120px 0 10px 0px;
 
-     
+} */
 
+.buy-template input {
+  font-family: "Open Sans";
+  background-color: #65e4a3;
+  border: 2px solid #0a2640;
+  border-radius: 56px;
+  padding: 16px 56px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.Explore input {
+  font-family: "Open Sans";
+  background-color: #0a2640;
+  border: 2px solid #fff;
+  border-radius: 56px;
+  padding: 16px 56px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  margin-left: 24px;
+}
+
+.buy-template form {
+  display: flex;
+}
+.slide-images {
+  display: flex;
+  padding-top: 30px;
+}
+
+.main-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.graphic-img {
+  padding: 120px 0 10px 0;
+}
+
+.services-paragaraph {
+  text-align: center;
+  color: #777777;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.services-heading {
+  text-align: center;
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  padding: 0px 43px;
+}
+
+.our-services {
+  padding-top: 84px;
+}
