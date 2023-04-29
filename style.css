@@ -758,3 +758,207 @@ input::placeholder {
 .our-services {
   padding-top: 84px;
 }
+
+
+.news {
+  padding-bottom: 80px;
+  width: 300px;
+  margin-right: 28px;
+}
+
+.news {
+  display: flex;
+
+}
+
+/*  */
+
+.box {
+  width: 340px;
+  height: 440px;
+  color: black;
+  font: 16px;
+  background-color: white;
+  padding-bottom: 50px;
+margin-bottom: 20px;
+}
+
+.banner {
+  display: flex;
+    justify-content: space-around;
+}
+.box-detail  {
+  font-family: "Open Sans";
+  color: #777777;
+  width: 230px;
+
+}
+.box-title {
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin: 16px 0;
+
+
+}
+
+.prize {
+  display: flex;
+  align-items: center;
+}
+
+.card-btn {
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  font-family: "Open Sans";
+  Font-style: Bold ;
+  Font-size: 20px;
+  Line-height: 36px;
+  Line-height: 132%;
+  color: #0A2640 ;
+  margin-bottom: 10px;
+
+}
+
+.fa-arrow-right:before {
+  font-weight: 800;
+}
+
+.employ-details h1 {
+  width: 493px;
+  Font-family: "Manrope" ;
+  font-size: 36px;
+  font-weight: 400;
+
+}
+.employ-details h2 {
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000 ;
+  font-weight: 400;
+}
+.employ {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.customer-section {
+  margin-top: 185px;
+}
+.customer-icon {
+  margin-right: 27px;
+  font-size: 36px;
+
+}
+.view-point input {
+  font-family: "Open Sans";
+  background-color: #0A2640;
+  border: 2px solid #0a2640;
+  border-radius: 56px;
+  padding: 16px 56px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+
+}
+.view-point {
+  margin-top: 56px;
+  
+
+}
+
+.connect {
+  padding-top: 70px;
+}
+.connect h1 {
+  width: 493px;
+  font-family: 'Manrope';
+  font-weight: 400;
+  line-height: 56px;
+}
+
+.connect-customer {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.customer-second {
+  margin-top: 217px;
+
+}
+
+.connect h2 {
+  font-size: 16px;
+  font-family: "Open sans";
+  line-height: 28px;
+  box-shadow: 3px -1px 9px 3px rgba(0,0,0,0.12);
+-webkit-box-shadow: 3px -1px 9px 3px rgba(0,0,0,0.12);
+-moz-box-shadow: 3px -1px 9px 3px rgba(0,0,0,0.12);
+  padding: 18px;
+  background-color: #0A2640;
+  color: #ffffff;
+  display: flex;
+}
+
+.diff-color h2 {
+  background-color: #FFFFFF;
+  color: #000;
+}
+.connect img {
+  padding-right: 12px;
+
+}
+
+
+.test-news h2 {
+  width: 842px;
+  /* height: 144px; */
+  font-size: 48px;
+  font-family: 'Manrope';
+  font-weight: 400;
+  line-height: 72px;
+  text-align: center;
+  padding-left: 150px;
+}
+.test-news h1 {
+  font-family: "Open sans";
+  color: #777;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.buzz h4 {
+  font-family: 'Manrope';
+  font-size: 47px;
+  line-height: 72px;
+  width: 716px;
+  height: 139px;
+  color: #FFFFFF;
+  font-weight: 400
+}
+.buzz {
+  display: flex;
+  justify-content: space-around;
+
+}
+.buzzer {
+  font-family: 'Open Sans';
+  color: #fff;
+  font-size: 60px;
+  padding: 130px 0 0 10px;
+  
+}
+.buzzer :first-child {
+  padding-right: 24px;
+
+}
+.buzzi {
+  background-color: #0A2640;
+}
+
+.card-text {
+  font-size: 24px;
+}
