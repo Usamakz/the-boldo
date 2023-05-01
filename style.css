@@ -1077,3 +1077,53 @@ input::placeholder {
   padding: 16px 56px 16px 56px;
 }
 /* new page */
+
+.home-head {
+  background-color: #0a2640;
+  height: 615px;
+}
+
+.services-para {
+  text-align: center;
+  color: #F1F1F1;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 72px;
+}
+
+.services-head{
+  text-align: center;
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 84px;
+  color: #fff;
+  width: 842px;
+  margin: 0px;
+  
+}
+
+.services-small {
+ font-family:"Open Sans";
+ width: 743px;
+ text-align: center;
+ font-size: 16px;
+ color: #F1F1F1;
+ font-weight: 400;
+ margin-top: 17.5px;
+
+}
+.our-business {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+
+}
+.grid-img {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 70px;
+}
