@@ -223,6 +223,8 @@ body {
 .team-info h2 {
   text-align: left;
   padding: 0;
+    color: #FFFFFF;
+
 }
 
 .team-members {
@@ -920,7 +922,7 @@ input::placeholder {
   text-align: center;
 }
 
-.buzz h4 {
+.designer-contant h4 {
   font-family: "Manrope";
   font-size: 47px;
   line-height: 72px;
@@ -929,23 +931,24 @@ input::placeholder {
   color: #ffffff;
   font-weight: 400;
 }
-.buzz {
+.designer-contant {
   display: flex;
   justify-content: space-around;
 }
-.buzzer {
+.designer-icons {
   font-family: "Open Sans";
   color: #fff;
   font-size: 60px;
   padding: 130px 0 0 10px;
 }
-.buzzer :first-child {
+.designer-icons :first-child {
   padding-right: 24px;
 }
 /* .buzzi {
   background-color: #0A2640;
 } */
-.buzz-partner {
+
+.web-designers {
   background-color: #0a2640;
 }
 
@@ -1126,4 +1129,124 @@ input::placeholder {
   align-items: center;
   text-align: center;
   margin-top: 70px;
+}
+
+
+/*  */
+
+.our-story-b {
+    background-color: #fff;
+    padding: 120px 0 120px 0px;
+    
+    
+}
+.stories {
+  padding: 0 157px 0 157px;
+  color: #0A2640;
+}
+
+
+.story-head {
+  color: #0A2640;
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.stories p {
+  width: 799px;
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+}
+.stories h4 {
+  color: #777777;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight:400;
+}
+
+.memb-paragaraph {
+  text-align: center;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff
+}
+.head {
+text-align: center;
+font-family: "Manrope";
+font-weight: 400;
+font-size: 48px;
+line-height: 72px;
+padding: 0px 43px;
+}
+
+.main-content .box-cont h2 {
+    font-family: "Manrope";
+    font-weight: 400;
+    font-size: 96px;
+    color: #4FE9A4;
+}
+
+
+.main-content .box-cont p {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+}
+ 
+.our-memb {
+  padding: 96px 0 120px 0;
+  background-color: #0A2640;
+}
+
+.our-tm {
+  padding: 124px 0 124px 0;
+}
+
+.team-info h4 {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 20px;
+  color: #777777;
+}
+
+.team-info p {
+  color: #777777;
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.value {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 72px;
+}
+
+.right b h2 {
+  font-family: "Manrope";
+  width: 842px;
+    font-size: 28px;
+    line-height: 48px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.right-b p {
+  width: 602px;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+  height: 71px;
+  font-family: "Open Sans";
+
+}
+.our-tm {
+  background-color: #0A2640;
 }
