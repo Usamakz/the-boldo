@@ -140,17 +140,19 @@ body {
   text-align: left;
 }
 
-.main-content .box-content h2 {
+.main-content .box-cont h2 {
   font-family: "Manrope";
   font-weight: 400;
   font-size: 96px;
+  margin: 0px;
 }
 
-.main-content .box-content p {
+.main-content .box-cont p {
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
+  margin: 0px;
 }
 
 .our-member {
@@ -223,8 +225,7 @@ body {
 .team-info h2 {
   text-align: left;
   padding: 0;
-    color: #FFFFFF;
-
+  color: #ffffff;
 }
 
 .team-members {
@@ -1030,29 +1031,27 @@ input::placeholder {
   display: flex;
   justify-content: space-around;
   padding-top: 20px;
-
 }
 
 .buy-template {
-    text-decoration: none;
-    color: #0A2640;
-    border: 1px solid;
-    padding: 16px 56px 16px 56px;
-    border-radius: 56px;
-    background-color: #69E6A6;
-    font-family: "Open Sans";
-    font-size: 20px;
-    line-height: 28px;
-    font-weight: 700;
-    margin-right: 24px;
-
+  text-decoration: none;
+  color: #0a2640;
+  border: 1px solid;
+  padding: 16px 56px 16px 56px;
+  border-radius: 56px;
+  background-color: #69e6a6;
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  margin-right: 24px;
 }
-.Explore  {
+.Explore {
   text-decoration: none;
   color: #fff;
   font-family: "Open Sans";
   font-size: 20px;
-  background-color: #0A2640;
+  background-color: #0a2640;
   border: 1px solid white;
   border-radius: 56px;
   font-weight: 700;
@@ -1063,18 +1062,18 @@ input::placeholder {
   margin-top: 40px;
 }
 
-
-.costumer-btn ,.Explore{
+.costumer-btn,
+.Explore {
   margin-top: 56px;
 }
 
-.load-more{
+.load-more {
   text-decoration: none;
-  color: #0A2640;
+  color: #0a2640;
   font-family: "Open Sans";
   font-size: 20px;
   background-color: #fff;
-  border: 1px solid #0A2640;
+  border: 1px solid #0a2640;
   border-radius: 56px;
   font-weight: 700;
   padding: 16px 56px 16px 56px;
@@ -1088,14 +1087,14 @@ input::placeholder {
 
 .services-para {
   text-align: center;
-  color: #F1F1F1;
+  color: #f1f1f1;
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 20px;
   margin-top: 72px;
 }
 
-.services-head{
+.services-head {
   text-align: center;
   font-family: "Manrope";
   font-weight: 400;
@@ -1104,50 +1103,47 @@ input::placeholder {
   color: #fff;
   width: 842px;
   margin: 0px;
-  
 }
 
 .services-small {
- font-family:"Open Sans";
- width: 743px;
- text-align: center;
- font-size: 16px;
- color: #F1F1F1;
- font-weight: 400;
- margin-top: 17.5px;
-
+  font-family: "Open Sans";
+  width: 743px;
+  text-align: center;
+  font-size: 16px;
+  color: #f1f1f1;
+  font-weight: 400;
+  margin-top: 17.5px;
 }
 .our-business {
- display: flex;
- justify-content: center;
- align-items: center;
- flex-direction: column;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .grid-img {
   display: flex;
   align-items: center;
   text-align: center;
   margin-top: 70px;
+  position: relative;
+  top: -166px;
 }
-
 
 /*  */
 
 .our-story-b {
-    background-color: #fff;
-    padding: 120px 0 120px 0px;
-    
-    
+  background-color: #fff;
+  padding: 120px 0 120px 0px;
 }
 .stories {
   padding: 0 157px 0 157px;
-  color: #0A2640;
+  color: #0a2640;
+  position: relative;
+  top: -100px;
 }
 
-
 .story-head {
-  color: #0A2640;
+  color: #0a2640;
   font-family: "Manrope";
   font-weight: 400;
   font-size: 48px;
@@ -1165,7 +1161,7 @@ input::placeholder {
   color: #777777;
   font-family: "Open Sans";
   font-size: 20px;
-  font-weight:400;
+  font-weight: 400;
 }
 
 .memb-paragaraph {
@@ -1173,36 +1169,35 @@ input::placeholder {
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 20px;
-  color: #fff
+  color: #fff;
 }
 .head {
-text-align: center;
-font-family: "Manrope";
-font-weight: 400;
-font-size: 48px;
-line-height: 72px;
-padding: 0px 43px;
+  text-align: center;
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  padding: 0px 43px;
 }
 
 .main-content .box-cont h2 {
-    font-family: "Manrope";
-    font-weight: 400;
-    font-size: 96px;
-    color: #4FE9A4;
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 96px;
+  color: #4fe9a4;
 }
-
 
 .main-content .box-cont p {
-    font-family: "Open Sans";
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
-    color: #fff;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
 }
- 
+
 .our-memb {
   padding: 96px 0 120px 0;
-  background-color: #0A2640;
+  background-color: #0a2640;
 }
 
 .our-tm {
@@ -1225,18 +1220,18 @@ padding: 0px 43px;
 
 .value {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
+  margin-left: 150px;
 }
 
 .right b h2 {
   font-family: "Manrope";
   width: 842px;
-    font-size: 28px;
-    line-height: 48px;
-    font-weight: 400;
-    color: #FFFFFF;
+  font-size: 28px;
+  line-height: 48px;
+  font-weight: 400;
+  color: #ffffff;
 }
 .right-b p {
   width: 602px;
@@ -1245,8 +1240,67 @@ padding: 0px 43px;
   font-weight: 400;
   height: 71px;
   font-family: "Open Sans";
-
 }
 .our-tm {
-  background-color: #0A2640;
+  background-color: #0a2640;
+}
+
+.head-blue {
+  font-size: 48px;
+  line-height: 72px;
+  color: #ffff;
+  font-family: "Manrope";
+  font-weight: 400;
+  width: 842px;
+}
+
+.member-mains {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.team-info-p h4 {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 20px;
+  /* color: #777777; */
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.team-info-b h2 {
+  color: #000;
+}
+
+.team-info-p p {
+  color: #f1f1f1;
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.right-text h2 {
+  color: #ffff;
+  font-family: "Manrope";
+  font-size: 28px;
+  line-height: 48px;
+  font-weight: 400;
+}
+
+.right-text p {
+  color: #f1f1f1;
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+}
+.right-text {
+  margin-left: 50px;
+}
+
+.our-story-c {
+  padding: 0px;
 }
